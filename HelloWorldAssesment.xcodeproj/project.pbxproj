@@ -10,11 +10,21 @@
 		744D47E019E76541002A43D0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 744D47DF19E76541002A43D0 /* main.m */; };
 		744D47E319E76542002A43D0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 744D47E219E76542002A43D0 /* AppDelegate.m */; };
 		744D47E619E76542002A43D0 /* HelloWorldAssesment.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 744D47E419E76542002A43D0 /* HelloWorldAssesment.xcdatamodeld */; };
-		744D47E919E76542002A43D0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 744D47E819E76542002A43D0 /* ViewController.m */; };
 		744D47EC19E76542002A43D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 744D47EA19E76542002A43D0 /* Main.storyboard */; };
 		744D47EE19E76542002A43D0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 744D47ED19E76542002A43D0 /* Images.xcassets */; };
 		744D47F119E76542002A43D0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 744D47EF19E76542002A43D0 /* LaunchScreen.xib */; };
 		744D47FD19E76542002A43D0 /* HelloWorldAssesmentTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 744D47FC19E76542002A43D0 /* HelloWorldAssesmentTests.m */; };
+		744D480B19E76980002A43D0 /* HWHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 744D480A19E76980002A43D0 /* HWHomeViewController.m */; };
+		744D480E19E7699A002A43D0 /* HWLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 744D480D19E7699A002A43D0 /* HWLocation.m */; };
+		744D481419E76A73002A43D0 /* HWConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 744D481319E76A73002A43D0 /* HWConstants.m */; };
+		744D481619E78548002A43D0 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 744D481519E78548002A43D0 /* MapKit.framework */; };
+		744D481919E8C3C8002A43D0 /* HWHomeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 744D481819E8C3C8002A43D0 /* HWHomeTableViewCell.m */; };
+		744D481C19E8C840002A43D0 /* HWDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 744D481B19E8C840002A43D0 /* HWDetailsViewController.m */; };
+		744D481E19E8E14A002A43D0 /* det-office.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 744D481D19E8E14A002A43D0 /* det-office.jpg */; };
+		744D482019E90617002A43D0 /* locations.plist in Resources */ = {isa = PBXBuildFile; fileRef = 744D481F19E90617002A43D0 /* locations.plist */; };
+		744D482219E99D35002A43D0 /* _0047_phone.png in Resources */ = {isa = PBXBuildFile; fileRef = 744D482119E99D35002A43D0 /* _0047_phone.png */; };
+		744D482419E99D68002A43D0 /* _0004_circuit.png in Resources */ = {isa = PBXBuildFile; fileRef = 744D482319E99D68002A43D0 /* _0004_circuit.png */; };
+		744D482619E99EBD002A43D0 /* helloworld logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 744D482519E99EBD002A43D0 /* helloworld logo.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,14 +44,28 @@
 		744D47E119E76541002A43D0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		744D47E219E76542002A43D0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		744D47E519E76542002A43D0 /* HelloWorldAssesment.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HelloWorldAssesment.xcdatamodel; sourceTree = "<group>"; };
-		744D47E719E76542002A43D0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		744D47E819E76542002A43D0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		744D47EB19E76542002A43D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		744D47ED19E76542002A43D0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		744D47F019E76542002A43D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		744D47F619E76542002A43D0 /* HelloWorldAssesmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloWorldAssesmentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		744D47FB19E76542002A43D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		744D47FC19E76542002A43D0 /* HelloWorldAssesmentTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloWorldAssesmentTests.m; sourceTree = "<group>"; };
+		744D480919E76980002A43D0 /* HWHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWHomeViewController.h; sourceTree = "<group>"; };
+		744D480A19E76980002A43D0 /* HWHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWHomeViewController.m; sourceTree = "<group>"; };
+		744D480C19E7699A002A43D0 /* HWLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWLocation.h; sourceTree = "<group>"; };
+		744D480D19E7699A002A43D0 /* HWLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWLocation.m; sourceTree = "<group>"; };
+		744D481219E76A73002A43D0 /* HWConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HWConstants.h; path = ../HWConstants.h; sourceTree = "<group>"; };
+		744D481319E76A73002A43D0 /* HWConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HWConstants.m; path = ../HWConstants.m; sourceTree = "<group>"; };
+		744D481519E78548002A43D0 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		744D481719E8C3C8002A43D0 /* HWHomeTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWHomeTableViewCell.h; sourceTree = "<group>"; };
+		744D481819E8C3C8002A43D0 /* HWHomeTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWHomeTableViewCell.m; sourceTree = "<group>"; };
+		744D481A19E8C840002A43D0 /* HWDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWDetailsViewController.h; sourceTree = "<group>"; };
+		744D481B19E8C840002A43D0 /* HWDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWDetailsViewController.m; sourceTree = "<group>"; };
+		744D481D19E8E14A002A43D0 /* det-office.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "det-office.jpg"; sourceTree = "<group>"; };
+		744D481F19E90617002A43D0 /* locations.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = locations.plist; sourceTree = "<group>"; };
+		744D482119E99D35002A43D0 /* _0047_phone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = _0047_phone.png; sourceTree = "<group>"; };
+		744D482319E99D68002A43D0 /* _0004_circuit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = _0004_circuit.png; sourceTree = "<group>"; };
+		744D482519E99EBD002A43D0 /* helloworld logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "helloworld logo.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				744D481619E78548002A43D0 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +90,7 @@
 		744D47D119E76541002A43D0 = {
 			isa = PBXGroup;
 			children = (
+				744D481519E78548002A43D0 /* MapKit.framework */,
 				744D47DC19E76541002A43D0 /* HelloWorldAssesment */,
 				744D47F919E76542002A43D0 /* HelloWorldAssesmentTests */,
 				744D47DB19E76541002A43D0 /* Products */,
@@ -85,9 +111,17 @@
 			children = (
 				744D47E119E76541002A43D0 /* AppDelegate.h */,
 				744D47E219E76542002A43D0 /* AppDelegate.m */,
-				744D47E719E76542002A43D0 /* ViewController.h */,
-				744D47E819E76542002A43D0 /* ViewController.m */,
+				744D481219E76A73002A43D0 /* HWConstants.h */,
+				744D481319E76A73002A43D0 /* HWConstants.m */,
+				744D480919E76980002A43D0 /* HWHomeViewController.h */,
+				744D480A19E76980002A43D0 /* HWHomeViewController.m */,
+				744D481A19E8C840002A43D0 /* HWDetailsViewController.h */,
+				744D481B19E8C840002A43D0 /* HWDetailsViewController.m */,
+				744D480C19E7699A002A43D0 /* HWLocation.h */,
+				744D480D19E7699A002A43D0 /* HWLocation.m */,
 				744D47EA19E76542002A43D0 /* Main.storyboard */,
+				744D481719E8C3C8002A43D0 /* HWHomeTableViewCell.h */,
+				744D481819E8C3C8002A43D0 /* HWHomeTableViewCell.m */,
 				744D47ED19E76542002A43D0 /* Images.xcassets */,
 				744D47EF19E76542002A43D0 /* LaunchScreen.xib */,
 				744D47E419E76542002A43D0 /* HelloWorldAssesment.xcdatamodeld */,
@@ -99,6 +133,11 @@
 		744D47DD19E76541002A43D0 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				744D482519E99EBD002A43D0 /* helloworld logo.png */,
+				744D482319E99D68002A43D0 /* _0004_circuit.png */,
+				744D482119E99D35002A43D0 /* _0047_phone.png */,
+				744D481F19E90617002A43D0 /* locations.plist */,
+				744D481D19E8E14A002A43D0 /* det-office.jpg */,
 				744D47DE19E76541002A43D0 /* Info.plist */,
 				744D47DF19E76541002A43D0 /* main.m */,
 			);
@@ -203,8 +242,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				744D47EC19E76542002A43D0 /* Main.storyboard in Resources */,
+				744D482219E99D35002A43D0 /* _0047_phone.png in Resources */,
 				744D47F119E76542002A43D0 /* LaunchScreen.xib in Resources */,
+				744D482619E99EBD002A43D0 /* helloworld logo.png in Resources */,
+				744D482019E90617002A43D0 /* locations.plist in Resources */,
 				744D47EE19E76542002A43D0 /* Images.xcassets in Resources */,
+				744D481E19E8E14A002A43D0 /* det-office.jpg in Resources */,
+				744D482419E99D68002A43D0 /* _0004_circuit.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -222,10 +266,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				744D481C19E8C840002A43D0 /* HWDetailsViewController.m in Sources */,
+				744D480B19E76980002A43D0 /* HWHomeViewController.m in Sources */,
 				744D47E619E76542002A43D0 /* HelloWorldAssesment.xcdatamodeld in Sources */,
 				744D47E319E76542002A43D0 /* AppDelegate.m in Sources */,
-				744D47E919E76542002A43D0 /* ViewController.m in Sources */,
+				744D481919E8C3C8002A43D0 /* HWHomeTableViewCell.m in Sources */,
+				744D481419E76A73002A43D0 /* HWConstants.m in Sources */,
 				744D47E019E76541002A43D0 /* main.m in Sources */,
+				744D480E19E7699A002A43D0 /* HWLocation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

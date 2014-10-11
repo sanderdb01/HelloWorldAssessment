@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>locations</key>
+	<array>
+		<dict>
+			<key>fax</key>
+			<string>(248)543-3777</string>
+			<key>address</key>
+			<string>One ePrize Drive</string>
+			<key>name</key>
+			<string>Detroit (HQ) Office</string>
+			<key>city</key>
+			<string>Pleasent Ridge</string>
+			<key>phone</key>
+			<string>(877) 837-7493</string>
+			<key>state</key>
+			<string>MI</string>
+			<key>address2</key>
+			<string></string>
+			<key>zip_postal_code</key>
+			<string>48069</string>
+			<key>latitude</key>
+			<string>42.475162</string>
+			<key>longitude</key>
+			<string>-83.134733</string>
+			<key>office_image</key>
+			<string>http://www.helloworld.com/img/locations/places/det-office.jpg</string>
+		</dict>
+		<dict>
+			<key>fax</key>
+			<string>(212)835-2386</string>
+			<key>address</key>
+			<string>29 West 35th Street</string>
+			<key>name</key>
+			<string>New York Office</string>
+			<key>city</key>
+			<string>New York</string>
+			<key>phone</key>
+			<string>(877) 837-7493</string>
+			<key>state</key>
+			<string>NY</string>
+			<key>address2</key>
+			<string>11th Floor</string>
+			<key>zip_postal_code</key>
+			<string>10001</string>
+			<key>latitude</key>
+			<string>40.750153</string>
+			<key>longitude</key>
+			<string>-73985424</string>
+			<key>office_image</key>
+			<string>http://www.helloworld.com/img/locations/places/ny-office.jpg</string>
+		</dict>
+		<dict>
+			<key>fax</key>
+			<string>(312) 252-3511</string>
+			<key>address</key>
+			<string>415 North Dearborn Drive</string>
+			<key>name</key>
+			<string>Chicago Office</string>
+			<key>city</key>
+			<string>Chicago</string>
+			<key>phone</key>
+			<string>(877)837-7493</string>
+			<key>state</key>
+			<string>IL</string>
+			<key>address2</key>
+			<string>4th Floor</string>
+			<key>zip_postal_code</key>
+			<string>60654</string>
+			<key>latitude</key>
+			<string>41.889765</string>
+			<key>longitude</key>
+			<string>-87.629335</string>
+			<key>office_image</key>
+			<string>http://www.helloworld.com/img/locations/places/chi-office.jpg</string>
+		</dict>
+		<dict>
+			<key>fax</key>
+			<string>(615) 712-9847</string>
+			<key>address</key>
+			<string>1311 16th Ave S</string>
+			<key>name</key>
+			<string>Nashville Office</string>
+			<key>city</key>
+			<string>Nashville</string>
+			<key>phone</key>
+			<string>(615)712-9846</string>
+			<key>state</key>
+			<string>TN</string>
+			<key>address2</key>
+			<string></string>
+			<key>zip_postal_code</key>
+			<string>37212</string>
+			<key>latitude</key>
+			<string>36.140502</string>
+			<key>longitude</key>
+			<string>-86.794089</string>
+			<key>office_image</key>
+			<string>http://www.helloworld.com/img/locations/places/nsh-office.jpg	</string>
+		</dict>
+		<dict>
+			<key>fax</key>
+			<string>(248) 543-3777</string>
+			<key>address</key>
+			<string>411 108 Avenue NE</string>
+			<key>name</key>
+			<string>Seattle Office</string>
+			<key>city</key>
+			<string>Bellevue</string>
+			<key>phone</key>
+			<string>(877) 837-7493</string>
+			<key>state</key>
+			<string>WA</string>
+			<key>address2</key>
+			<string>Suite 1920 One Bellevue Center</string>
+			<key>zip_postal_code</key>
+			<string>98004</string>
+			<key>latitude</key>
+			<string>47.614281</string>
+			<key>longitude</key>
+			<string>-122.196595</string>
+			<key>office_image</key>
+			<string>http://www.helloworld.com/img/locations/places/sea-office.jpg	</string>
+		</dict>
+		<dict>
+			<key>fax</key>
+			<string>(213) 270-6595</string>
+			<key>address</key>
+			<string>450 South Bixel Street</string>
+			<key>name</key>
+			<string>Los Angeles Office</string>
+			<key>city</key>
+			<string>Los Angeles</string>
+			<key>phone</key>
+			<string>(877) 837-7493</string>
+			<key>state</key>
+			<string>CA</string>
+			<key>address2</key>
+			<string>Suite T-220</string>
+			<key>zip_postal_code</key>
+			<string>90017</string>
+			<key>latitude</key>
+			<string>34.055700</string>
+			<key>longitude</key>
+			<string>-118.260874</string>
+			<key>office_image</key>
+			<string>http://www.helloworld.com/img/locations/places/la-office.jpg	</string>
+		</dict>
+		<dict>
+			<key>fax</key>
+			<string></string>
+			<key>address</key>
+			<string>2141 East Broadway</string>
+			<key>name</key>
+			<string>Phoenix Office</string>
+			<key>city</key>
+			<string>Tempe</string>
+			<key>phone</key>
+			<string>(877) 837-7493</string>
+			<key>state</key>
+			<string>AZ</string>
+			<key>address2</key>
+			<string>Suite 108</string>
+			<key>zip_postal_code</key>
+			<string>85282</string>
+			<key>latitude</key>
+			<string>33.406841</string>
+			<key>longitude</key>
+			<string>-111.894092</string>
+			<key>office_image</key>
+			<string>http://www.helloworld.com/img/locations/places/phx-office.jpg	</string>
+		</dict>
+	</array>
+</dict>
+</plist>

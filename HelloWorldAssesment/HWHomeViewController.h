@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  HWHomeViewController.h
 //  HelloWorldAssesment
 //
 //  Created by David Sanders on 10/9/14.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface HWHomeViewController : UIViewController
 
 @end
-
