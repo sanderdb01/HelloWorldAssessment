@@ -86,7 +86,7 @@
     MKPlacemark *place = [[MKPlacemark alloc] initWithCoordinate:coords addressDictionary:nil];
     MKMapItem *mapItemLocation = [[MKMapItem alloc] initWithPlacemark:place];
     MKMapItem *mapItemUser = [MKMapItem mapItemForCurrentLocation];
-    NSArray *mapItems = @[mapItemLocation, mapItemUser];
+    NSArray *mapItems = @[mapItemUser, mapItemLocation];
     NSDictionary *options = @{
                               MKLaunchOptionsDirectionsModeKey:MKLaunchOptionsDirectionsModeDriving
                               };
